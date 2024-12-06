@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+
+    <!-- Day 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/id_forecastDay1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Fri, Jun 26"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/editTextColor" />
+
+        <ImageView
+            android:id="@+id/id_forecastIcon1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/cloudy"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/weather_icon_description" />
+
+        <TextView
+            android:id="@+id/id_forecastTemp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28°"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/editTextColor" />
+    </LinearLayout>
+
+    <!-- Day 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/id_forecastDay2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sat, Jun 27"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/editTextColor" />
+
+        <ImageView
+            android:id="@+id/id_forecastIcon2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/shower"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/weather_icon_description" />
+
+        <TextView
+            android:id="@+id/id_forecastTemp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30°"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/editTextColor" />
+    </LinearLayout>
+
+    <!-- Day 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/id_forecastDay3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sun, Jun 28"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/editTextColor" />
+
+        <ImageView
+            android:id="@+id/id_forecastIcon3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/lightrain"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/weather_icon_description" />
+
+        <TextView
+            android:id="@+id/id_forecastTemp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="32°"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/editTextColor" />
+    </LinearLayout>
+
+    <!-- Day 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/id_forecastDay4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Mon, Jun 29"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/editTextColor" />
+
+        <ImageView
+            android:id="@+id/id_forecastIcon4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/sunny"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/weather_icon_description" />
+
+        <TextView
+            android:id="@+id/id_forecastTemp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="27°"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/editTextColor" />
+    </LinearLayout>
+
+    <!-- Day 5 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/id_forecastDay5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Tue, Jun 30"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/editTextColor" />
+
+        <ImageView
+            android:id="@+id/id_forecastIcon5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/snow1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/weather_icon_description" />
+
+        <TextView
+            android:id="@+id/id_forecastTemp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="33°"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/editTextColor" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Back" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<!-- colors.xml -->
+<resources>
+    <!-- Background color -->
+    <color name="backgroundColor">#FFFFFF</color>
+
+    <!-- Text color -->
+    <color name="textColor">#333333</color>
+
+    <!-- Icon tint color -->
+    <color name="iconTint">#555555</color>
+
+    <!-- EditText background color -->
+    <color name="editTextBackground">#F0F0F0</color>
+
+    <!-- EditText text color -->
+    <color name="editTextColor">#333333</color>
+
+    <!-- Button background color -->
+    <color name="buttonBackground">#4CAF50</color>
+
+    <color name="primary_color">#FF5722</color>
+
+
+        <color name="white">#FFFFFF</color>
+        <color name="dark_blue">#000080</color>
+
+
+
+    <!-- Button text color -->
+    <color name="buttonTextColor">#FFFFFF</color>
+</resources>
